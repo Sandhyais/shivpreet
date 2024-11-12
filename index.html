@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGuard - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .radio-group {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to CyberGuard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html" target="_blank">Services</a>
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+        <h2>Protecting Your Digital Assets</h2>
+        <p>CyberGuard is your trusted partner in cybersecurity. We provide cutting-edge solutions to keep your business safe from digital threats.</p>
+        
+        <div class="radio-group">
+            <h3>What's your primary concern?</h3>
+            <input type="radio" id="malware" name="concern" value="malware">
+            <label for="malware">Malware Protection</label><br>
+            <input type="radio" id="phishing" name="concern" value="phishing">
+            <label for="phishing">Phishing Prevention</label><br>
+            <input type="radio" id="databreaches" name="concern" value="databreaches">
+            <label for="databreaches">Data Breach Prevention</label>
+        </div>
+        
+        <div class="radio-group">
+            <h3>How familiar are you with cybersecurity?</h3>
+            <input type="radio" id="beginner" name="familiarity" value="beginner">
+            <label for="beginner">Beginner</label><br>
+            <input type="radio" id="intermediate" name="familiarity" value="intermediate">
+            <label for="intermediate">Intermediate</label><br>
+            <input type="radio" id="expert" name="familiarity" value="expert">
+            <label for="expert">Expert</label>
+        </div>
+    </div>
+</body>
+</html>
